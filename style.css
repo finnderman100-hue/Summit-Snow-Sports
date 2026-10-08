@@ -1,0 +1,31 @@
+/* Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Active page */
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
